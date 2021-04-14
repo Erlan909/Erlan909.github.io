@@ -1,0 +1,335 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.headem {
+    background-color: #65256F;;
+}
+.fox{
+    display: flex;
+}
+.paragraf {
+     margin-left: 65px;
+     align-items: center;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #FFB700;
+
+}
+.parag-head{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 24px;
+     margin-left: 185px;
+
+     color: #FFFFFF;
+}
+.ssylka{
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     margin-left: 60px;
+     
+     color: #FFB700;
+}
+.armada {
+    margin-left: 55px;
+}
+.gov {
+    display: flex;
+
+}
+
+.gov ul{
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+}
+.log{
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 17px;
+     margin-top: 12px;
+     margin-right: 51px;
+     margin-left: 0;
+     color: #2A2828;
+     cursor: pointer;
+}
+.menu {
+    margin-top: 10px;
+    background: #65256F;
+    border-radius: 3px;
+    width: 150px;
+    margin-left: 20px;
+    color: white;
+}
+.full-hd{
+    width: 100%;
+    background: url(../img8/glavna.png) rgba(0,0,0,.3)
+}
+.glavnyi{
+   
+    position: absolute;
+    justify-content: space-around;
+}
+.zagolovok h1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    margin-top: -87%;
+    margin-left: 85px;
+    
+    color: #FFFFFF;
+}
+.zagolovok p {
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 32px;
+     line-height: 36px;
+     margin-left: 91px;
+     margin-top: 25px;
+
+      color: #FFFFFF;
+}
+.zagolovok button {
+     background: #FFC957;
+     border-radius: 3px;
+     margin-left: 91px;
+     margin-top: 25px;
+     width: 35%;
+     height: 45px;
+     color: #000000;
+}
+.img{
+    margin-top: -41%;
+    margin-left: 171%;
+   
+}
+.imges1 {
+    height: 40px;
+}
+.imges2{
+     height: 40px;
+     margin-top: 80px;
+}
+.imges3{
+    height: 40px;
+    margin-top: 80px;
+}
+.title {
+     text-align: center;
+     margin-top: 55px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 48px;
+     line-height: 56px;
+}
+.title::before {
+    content: "";
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 825px;
+    left: 61%;
+}
+.title::after{
+    content: "";
+    border: 1px solid #BEBEBE;
+    width: 40%;
+    position: absolute;
+    top: 825px;
+    left: -1%;
+}
+.leute{
+    margin-top: 41%;
+    margin-left: 44px;
+}
+
+
+.const {
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 21px;
+     text-align: center;
+     margin-top: 12%;
+
+     color: #000000;
+
+}
+.tel {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 19px;
+      text-align: center;
+
+      color: #5E5E5E;
+}
+.namber-btn {
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 16px;
+     margin-left: 65px;
+
+      color: #753ED6;
+}
+
+
+.manas-img {
+    margin-top: 25px;
+}
+
+
+.manas{
+     position: absolute;
+     
+     font-style: normal;
+     font-size: 24px;
+     line-height: 29px;
+     margin-top: -55px;
+     margin-left: 12px;
+     
+
+      color: #FFFFFF;
+
+}
+
+.rabota{
+    /* position: absolute; */
+    margin-top: 3%;
+    margin-left: 456px;
+    width: 27%;
+    background-color: #65256F !important;
+    height: 45px; 
+    
+}
+.proiz {
+    margin-top: 8%;
+}
+.proizwodstvo {
+    margin-top: 35px;
+}
+.preis {
+    margin-top: 35px;
+}
+.wyweska{
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     
+    
+     color: #5A5858;
+}
+.wyweska-nomer{
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 21px;
+     margin-left: 2px;
+
+     color: #4C1F8C;
+}
+.nike{
+    width: 8%;
+    height: 85px;
+    position: absolute;
+    margin-top: 20px;
+}
+.comanda{
+     margin-top: 11%;
+}
+.comand {
+      margin-left: 2px;
+      font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 31px;
+     line-height: 42px;
+
+     color: #000000;
+}
+.comand1{
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 28px;
+     margin-left: 3px;
+}
+.mened{
+    margin-top: 8%;
+}
+.title1{
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 38px;
+     text-align: center;
+     color: #343434;
+     margin-top: -45px;
+}
+.title2{
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 21px;
+     color: #585858;
+     text-align: center;
+}
+.repet{
+    margin-top: 8%;
+}
+.controller{
+    margin-left: 35px;
+    width: 35%;
+    margin-top: 25px;
+}
+.otpravka{
+    margin-left: 60px;
+    width: 52%;
+    background-color: #65256F !important;
+    margin-top: 25px;
+}
+footer {
+    margin-top: 8%;
+    background: #3A3A3A;
+}
+.compania {
+     font-family: Gilroy;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 19px;
+     color: #FFFFFF;
+     margin-top: 45px;
+     margin-left: 35px;
+}
+.lorem{
+     font-family: Gilroy;
+     font-style: normal;
+      font-weight: 400;
+     font-size: 14px;
+     margin-left: 35px;
+     color: #BCBBBB;
+}
+
+
